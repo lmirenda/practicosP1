@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico 5 - Strings</title>
+</head>
+<body>
+    <h1>Practico 5  - Strings</h1>
+    <div id="ejercicio1">
+        <h2>Ejercicio 1</h2>
+        <p>Solicitar un texto en pantalla y luego mostrarlo en forma invertida</p>
+        <label for="valor1E1">Ingrese texto: </label>
+        <input type="text" placeholder="..." id="valor1E1">
+        <br><br>
+        <input type="button" value="Invertir" id="btnE1">
+        <p id="resultadoE1"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio2">
+        <h2>Ejercicio 2</h2>
+        <p>Solicitar un texto y una letra e indicar cuantas veces aparece esa letra en el texto ingresado</p>
+        <label for="valor1E2">Ingrese un texto: </label>
+        <input type="text" placeholder="Texto" id="valor1E2">
+        <br><br>
+        <label for="valor2E2">Ingrese un caracter: </label>
+        <input type="text" placeholder="1 caracter" id="valor2E2">
+        <br><br>
+        <input type="button" id="btnE2" value="Buscar">
+        <p id="resultadoE2"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio3">
+        <h2>Ejercicio 3</h2>
+        <p>Solicitar un texto e indicar cuantas vocales presenta</p>
+        <label for="valor1E3">Ingrese un texto: </label>
+        <input type="text" id="valor1E3" placeholder="texto">
+        <br><br>
+        <input type="button" value="Buscar vocales" id="btnE3">
+        <p id="resultadoE3"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio4">
+        <h2>Ejercicio 4</h2>
+        <p>Ingresar un texto y al presionar un boton covertirlo a minusculas y mostrarlo en otro parrafo</p>
+        <label for="valor1E4">Ingrese un texto: </label>
+        <input type="text" placeholder="texto" id="valor1E4">
+        <br><br>
+        <input type="button" value="Minusculas" id="btnE4">
+        <p id="resultadoE4"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio5">
+        <h2>Ejercicio 5</h2>
+        <p>Ingresar un texto y al presionar un boton convertirlo a mayusculas y mostrarlo en un parrafo</p>
+        <label for="valor1E5">Ingrese un texto: </label>
+        <input type="text" id="valor1E5" placeholder="texto">
+        <br><br>
+        <input type="button" value="Mayus" id="btnE5">
+        <p id="resultadoE5"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio6">
+        <h2>Ejercicio 6</h2>
+        <p>Ingresar dos textos y verificar si el segundo es una subcadena del primero, es decir que esta comprendido completamente dentro del primero</p>
+        <label for="valor1E6">Ingrese la cadena principal: </label>
+        <input type="text" placeholder="Cadena principal" id="valor1E6">
+        <br><br>
+        <label for="valor2E6">Ingrese subcadena a buscar: </label>
+        <input type="text" placeholder="Subcadena" id="valor2E6">
+        <br><br>
+        <input type="button" value="Buscar" id="btnE6">
+        <p id="resultadoE6"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio7">
+        <h2>Ejercicio 7</h2>
+        <p>Dado un texto contar la cantidad de palabras que contiene. Para separar las palabras en esta etapa consideramos como separador unicamente los espacios en blanco.</p>
+        <label for="valor1E7">Ingrese un texto: </label>
+        <input type="text" placeholder="texto" id="valor1E7">
+        <br><br>
+        <input type="button" value="Contar palabras" id="btnE7">
+        <p id="resultadoE7"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio8">
+        <h2>Ejercicio 8</h2>
+        <p>Dado un texto indicar si comienza y termina con la misma letra</p>
+        <label for="valor1E8">Ingrese un texto: </label>
+        <input type="text" placeholder="texto" id="valor1E8">
+        <br><br>
+        <input type="button" value="Check" id="btnE8">
+        <p id="resultadoE8"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio9">
+        <h2>Ejercicio 9</h2>
+        <p>Sabiendo que la primera letra de una matricula indica el departamento. Ingresar una matricula en formato AAA-111 e informar a que departamento pertenece el vehiculo</p>
+        <label for="valor1E9">Ingrese una matricula</label>
+        <input type="text" placeholder="Formato: AAA-111" id="valor1E9">
+        <br><br>
+        <input type="button" value="Buscar" id="btnE9">
+        <p id="resultadoE9"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio10">
+        <h2>Ejercicio10</h2>
+        <p>Dado un texto y una letra mostrar el texto ingresado, remplazando la letra indicada por '*'</p>
+        <label for="valor1E10">Ingrese un texto</label>
+        <input type="text" placeholder="Texto" id="valor1E10">
+        <br><br>
+        <label for="valor2E10">Ingrese una letra: </label>
+        <input type="text" placeholder="Letra" id="valor2E10">
+        <br><br>
+        <input type="button" value="Sustituir" id="btnE10">
+        <p id="resultadoE10"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio11">
+        <h2>Ejercicio 11</h2>
+        <p>Ingresar un texto y al presionar un boton convertir todo el texto a minusculas y solo la primera letra de la primera palabra a mayusculas.</p>
+        <label for="valor1E11">Ingrese un texto: </label>
+        <input type="text" placeholder="Texto" id="valor1E11">
+        <br><br>
+        <input type="button" value="Convertir" id="btnE11">
+        <p id="resultadoE11"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio12">
+        <h2>Ejercicio 12</h2>
+        <p>Hacer un programa que ingrese una cadena de carateres y determine el numero de mayusculas y el numero de minusculas. <br>
+        Se deberan eliminar los espacios en blanco antes de hacer el calculo y se puede considerar cualquier caracter que no sea a-z o A-Z como mayuscula y minuscila.</p>
+        <label for="valor1E12">Ingrese un texto</label>
+        <input type="text" placeholder="texto" id="valor1E12">
+        <br><br>
+        <input type="button" value="Contar" id="btnE12">
+        <p id="resultadoE12"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio13">
+        <h2>Ejercicio 13</h2>
+        <p>Dado un texto indicar si es un palindromo. No se tienen en cuenta los espacios en blanco.</p>
+        <label for="valor1E13">Ingrese un texto: </label>
+        <input type="text" placeholder="Texto" id="valor1E13">
+        <br><br>
+        <input type="button" value="Check" id="btnE13">
+        <p id="resultadoE13"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio14">
+        <h2>Ejercicio 14</h2>
+        <p>Escribir una funcion que reciba como parametro una palabra y devuelva la cantidad de veces que aparece la primera letra de esa palabra en toda la palabra.</p>
+        <label for="valor1E14">Ingrese una palabra: </label>
+        <input type="text" placeholder="Palabra" id="valor1E14">
+        <br><br>
+        <input type="button" value="Buscar" id="btnE14">
+        <p id="resultadoE14"></p>
+        <br><hr><br>
+    </div>
+    <script src="codigo5.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico 6 - Arrays</title>
+</head>
+<body>
+    <h1>Practico 6 - Arrays</h1>
+    <div id="ejercicio1">
+        <h2>Ejercicio 1</h2>
+        <p>Realizar una funcion que reciba un array que contiene strings. Retornar un nuevo array numerico cuyos elementos sean los largos de los strings del array original.</p>
+        <label for="valor1E1">Ingrese un texto: </label>
+        <input type="text" placeholder="Texto" id="valor1E1">
+        <br><br>
+        <input type="button" value="Ingresar valor" id="btn1E1">
+        <input type="button" value="Contar letras" disabled="true" id="btn2E1">
+        <p id="resultado1E1"></p>
+        <p id="resultado2E1"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio2">
+        <h2>Ejercicio 2</h2>
+        <p>Ingrese valores numericos en un array a partir de un campo de texto y un boton. Presionando otro boton mostrar en pantalla el mayor numero.</p>
+        <label for="valor1E2">Ingrese un numero: </label>
+        <input type="number" placeholder="Numero" id="valor1E2">
+        <br><br>
+        <input type="button" value="Procesar numero" id="btn1E2">
+        <input type="button" value="Buscar mayor" id="btn2E2" disabled = "true">
+        <p id="resultado1E2"></p>
+        <p id="resultado2E2"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio3">
+        <h2>Ejercicio 3</h2>
+        <p>Ingresar palabras e incorporarlas a un array indexado mediante un boton. Para finalizar presionar otro boton y mostrar un listado de todas las palabras almacenadas.</p>
+        <label for="valor1E3">Ingrese una palabra: </label>
+        <input type="text" placeholder="Texto" id="valor1E3">
+        <br><br>
+        <input type="button" value="Ingresar palabra" id="btn1E3">
+        <input type="button" value="Mostrar" id="btn2E3" disabled="true">
+        <p id="resultadoE3"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio4">
+        <h2>Ejercicio 4</h2>
+        <p>Ingresar numeros e incorporarlas a un array indexado mediante un boton. Para finalizar presionar otro boton el promedio de los tados almacenados.</p>
+        <label for="valor1E4">Ingrese un numero: </label>
+        <input type="number" placeholder="Numero" id="valor1E4">
+        <br><br>
+        <input type="button" value="Ingresar numero" id="btn1E4">
+        <input type="button" value="Mostrar" id="btn2E4" disabled="true">
+        <p id="resultadoE4"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio5">
+        <h2>Ejercicio 5</h2>
+        <p>Crear una funcion que reciba como parametro un array con valores numericos y devuelva un nuevo array solamente con los valores mayores a 20</p>
+        <label for="valor1E5">Ingrese un numero: </label>
+        <input type="number" placeholder="Numero" id="valor1E5">
+        <br><br>
+        <input type="button" value="Ingresar numero" id="btn1E5">
+        <input type="button" value="Mostrar" id="btn2E5" disabled="true">
+        <p id="resultadoE5"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio6">
+        <h2>Ejercicio 6</h2>
+        <p>Una empresa necesita almacenar los alias (nombres de usuario) de red de sus empleados. Luego de cada ingreso mostrar todos los usarios ingresados hasta el momento.
+            <br>
+            Los alias no se deben repetir.
+        </p>
+        <label for="valor1E6">Ingrese alias: </label>
+        <input type="text" id="valor1E6" placeholder="Alias">
+        <br><br>
+        <input type="button" value="Ingresar" id="btnE6">
+        <p id="resultadoE6"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio7">
+        <h2>Ejercicio 7</h2>
+        <p>
+            a) Crear un campo de texto y un boton para ingresar nombres a un array. Cada ingreso mostrar todos los elementos, uno por linea, y al final mostrar la cantidad de elementos que tiene el array.
+            <br>
+            b)Crear un nuevo campo de texto y otro boton para ingresar en el campo de texto un numero de posicion, y mostrar en un parrafo el elemento que se encuentra es esa posicion.
+            Ademas en otro parrafo mostrar el ultimo elemento del array.
+            <br>
+            c) Crear dos campos de texto para nombre a buscar y nuevo nombre y al presionar un boton buscar si ese elemento existe y en caso de existir sustituir el elemento buscado por el nuevo. 
+            Sino informar que no existe el elemento, en ese caso el nombre nuevo no se utilizara. 
+        </p>
+        <label for="valor1E7">Ingrese un nombre: </label>
+        <input type="text" placeholder="Nombre" id="valor1E7">
+        <input type="button" value="Ingresar y mostrar" id="btn1E7">
+        <p id="resultado1E7"></p>
+        <br><br>
+        <label for="valor2E7">Ingrese una posicion: </label>
+        <input type="number" placeholder="Posicion" id="valor2E7">
+        <input type="button" value="Buscar" id="btn2E7">
+        <p id="resultado2E7"></p>
+        <br><br>
+        <label for="valor3E7">Nombre a buscar: </label>
+        <input type="text" placeholder="nombre exisente" id="valor3E7">
+        <br><br>
+        <label for="valor4E7">Nuevo nombre: </label>
+        <input type="text" placeholder="Nombre" id="valor4E7">
+        <br><br>
+        <input type="button" value="Buscar y sustituir" id="btn3E7">
+        <p id="resultado3E7"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio8">
+        <h2>Ejercicio 8</h2>
+        <p>Partiendo de un array [1,1] completar el array hasta la posicion 20 con los numeros de la sucesion fibonacci.</p>
+        <input type="button" value="Mostrar" id=btnE8>
+        <p id="resultadoE8"></p>
+        <br><hr><br>
+    </div>
+    <div id="ejercicio9">
+        <h2>Ejercicio 9</h2>
+        <p>Partiendo de un array que contenga los valores 1 y 1 en las primeras dos posiciones, completar el array con la secuencia de fibonacci hasta que el ultimo valor almacenado sea mayor a 1000, en ese momento detener el programa.</p>
+        <input type="button" value="mostrar" id="btnE9">
+        <p id="resultadoE9"></p>
+        <br><hr><br>
+    </div>
+    <script src="codigo6.js"></script>
+</body>
+</html>

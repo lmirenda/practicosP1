@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico 3</title>
+</head>
+<body>
+    <h1>Practico 3 - Estructuras de control repetitivas</h1>
+    
+    <div id="Metodo">
+        <h2>Metodo</h2>
+        <p>Selecciona el metodo a ejecutar</p>
+        <form>
+            <input type="radio" name="metodo" id="forE1" value="for" checked>
+            <label for="forE1">For</label>
+            <br>
+            <input type="radio" name="metodo" id="whileE1" value="while">
+            <label for="whileE1">While</label>
+            <br>
+            <input type="radio" name="metodo" id="doWhileE1" value="doWhile">
+            <label for="doWhileE1">do (...) While</label>
+            <br><br>
+            <input type="button" value="Seleccionar y Borrar resultados" id="btn">
+        </form>
+        <p id="resultado"></p>
+    </div>
+
+    <div id="ejercicio1">
+        <h2>Ejercicio 1</h2>
+        <p>Imprimir todos los numeros enteros del 1 al 1000 (un numero por linea)</p>
+        <input type="button" value="Imprimir" id="btnE1">
+        <p id="resultadoE1" name="parrafoResultado"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio2">
+        <h2>Ejercicio 2</h2>
+        <p>Imprimir todos los numeros enteros del -100 al 10</p>
+        <input type="button" value="Imprimir" id="btnE2">
+        <p id="resultadoE2"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio3">
+        <h2>Ejercicio 3</h2>
+        <p>Imprimir todos los numeros enteros del 40 al 10</p>
+        <input type="button" id="btnE3" value = "Imprimir">
+        <p id="resultadoE3"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio4">
+        <h2>Ejercicio 4</h2>
+        <p>Imprimir todos los numeros enteros del 20 al -30</p>
+        <input type="button" value = "Imprimir" id="btnE4">
+        <p id="resultadoE4"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio5">
+        <h2>Ejercicio 5</h2>
+        <p>Imrpmir todos los numeros multiplsod e 5 entre 1 y 450 (inclusive)</p>
+        <input type="button" value="Imprimir" id="btnE5">
+        <p id="resultadoE5"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio6">
+        <h2>Ejercicio 6</h2>
+        <p>Imprimir todos los numeros multiplos de 4 entre -33 y 230</p>
+        <input type="button" value="Imprimir" id="btnE6">
+        <p id="resultadoE6"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio7">
+        <h2>Ejercicio 7</h2>
+        <p>Ingresar un numero entre 2 y 50. Dibujar en la pantalla una linea compuesta por guines "-". La linea tendra tantos guiones como el numero ingresado</p>
+        <label for="valor1E7">Valor: </label>
+        <input type="number" placeholder="Numero entre 2 y 50" id="valor1E7">
+        <br><br>
+        <input type="button" value="Dibujar linea" id="btnE7">
+        <p id="resultadoE7"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio8">
+        <h2>Ejercicio 8</h2>
+        <p>Ingresar dos numeros y al presionar un boton mostrar todos los numeros entre esntros dos numeros (inclusive)</p>
+        <label for="valor1E8">Valor 1: </label>
+        <input type="number" placeholder="Ingrese un valor" id="valor1E8">
+        <br><br>
+        <label for="valor2E8">Valor 2: </label>
+        <input type="number" placeholder="Ingrese un valor" id="valor2E8">
+        <br><br>
+        <input type="button" value="Mostrar" id="btnE8">
+        <p id="resultadoE8"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio9">
+        <h2>Ejercicio 9</h2>
+        <p>Pedir dos numeros y utilizando solamente sumas y estructuras repetitivas, implementar el producto de esos dos numeros</p>
+        <label for="valor1E9">Valor 1: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E9">
+        <br><br>
+        <label for="valor2E9">Valor 2: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E9">
+        <br><br>
+        <input type="button" value="Calcular producto" id="btnE9">
+        <p id="resultadoE9"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio10">
+        <h2>Ejercicio 10</h2>
+        <p>Pedor dos numeros y mostrar el producto de todos los numeros comprendidos entre ellos. Solo se realizan prueba donde el primer numero sea menor al segundo. No es necesario controlarlo.</p>
+        <label for="valor1E10">Valor 1: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E10">
+        <br><br>
+        <label for="valor2E10">Valor 2: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E10">
+        <br><br>
+        <input type="button" value="Calcular productos" id="btnE10">
+        <p id="resultadoE10"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio11">
+        <h2>Ejercicio 11</h2>
+        <p>Ingresar tres numeros. AL presionar un boton mostrar todos los numeros multiplos del tercero que estan entre los dos primeros. </p>
+        <label for="valor1E11">Valor 1:</label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E11">
+        <br><br>
+        <label for="valor2E11">Valor 2:</label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E11">
+        <br><br>
+        <label for="valor3E11">Valor 3:</label>
+        <input type="number" placeholder="Ingrese un numero" id="valor3E11">
+        <br><br>
+        <input type="button" value="Mostrar" id="btnE11">
+        <p id="resultadoE11"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio12">
+        <h2>Ejercicio 12</h2>
+        <p>Ingresar un numero y calcular su factorial</p>
+        <label for="valor1E12">Valor: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E12">
+        <br><br>
+        <input type="button" value="Calcular factorial" id="btnE12">
+        <p id="resultadoE12"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio13">
+        <h2>Ejercicio 13</h2>
+        <p>Dibujar rectangulos. Se pide el alto y ancho el rectangulo. El rectangulo se dibujara con un caracter apropiado.</p>
+        <label for="valor1E13">Ingrese un caracter: </label>
+        <input type="text" placeholder="Caracter para dibujar" id="valor1E13">
+        <br><br>
+        <label for="valor2E13">Alto: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E13">
+        <br><br>
+        <label for="valor3E13">Ancho: </label>
+        <input type="number" placeholder="Ingrese un numero"  id="valor3E13">
+        <br><br>
+        <input type="button" value="Dibujar Rectangulo" id="btnE13">
+        <p id="resultadoE13"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio14">
+        <h2>Ejercicio 14</h2>
+        <p>Pedir un numero y mostrar cuantos digitos tiene</p>
+        <label for="valor1E14">Valor: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E14">
+        <br><br>
+        <input type="button" value="Mostrar digitos" id="btnE14">
+        <p id="resultadoE14"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio15">
+        <h2>Ejercicio 15</h2>
+        <p>Pedir un numero y dividirlo entre 20 hasta que el resultado sea menor a 100, mostrar el resultado.
+            <br>
+            Se debe validar que el numero ingresado sea mayor a 2000, en caso contrario avisarle al usuario y volver a solicitar el numero.
+        </p>
+        <label for="valor1E15">Valor: </label>
+        <input type="number" placeholder="Ingrese un numero mayor a 2000" id="valor1E15">
+        <br><br>
+        <input type="button" value="Calcular" id="btnE15">
+        <p id="resultadoE15"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio16">
+        <h2>Ejercicio 16</h2>
+        <p>Pedir dos numeros y mostrar el primer numero incluido entre ellos q sea multiplo de 4 y 16 a la vez</p>
+        <label for="valor1E16">Valor 1: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E16">
+        <br><br>
+        <label for="valor2E16">Valor 2: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E16">
+        <br><br>
+        <input type="button" value="Calcular" id="btnE16">
+        <p id="resultadoE16"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio17">
+        <h2>Ejercicio 17</h2>
+        <p>Utilizando solamente restas y estructuras repetitivas, obtener el cociente y el resto de la division entera entre un dividiendo y un divisor.</p>
+        <label for="valor1E17">Dividendo: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E17">
+        <br><br>
+        <label for="valor2E17">Divisor: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor2E17">
+        <br><br>
+        <input type="button" value="Calcular resto" id="btnE17">
+        <p id="resultadoE17"></p>
+        <br><hr><br>
+    </div>
+
+    <div id="ejercicio18">
+        <h2>Ejercicio 18</h2>
+        <p>Solicitar un numero al usuiario e imprimir en un parrafo todos los numeros mayores a 30 y menores a 200 que sean multiplos del numero ingresado por el usuario y pares simultaneamente.</p>
+        <label for="valor1E18">Valor: </label>
+        <input type="number" placeholder="Ingrese un numero" id="valor1E18">
+        <br><br>
+        <input type="button" value="Buscar" id="btnE18">
+        <p id="resultadoE18"></p>
+        <br><hr><br>
+    </div>
+    <script type="text/javascript" src="codigo3.js"></script>
+</body>
+</html>

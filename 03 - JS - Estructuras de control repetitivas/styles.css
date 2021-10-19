@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;}
+table {
+    background-color: powderblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 20%;
+}
+
+th {
+    background-color: rgb(238, 75, 110);
+    font-size: 1rem;
+    padding: 20px 20px;
+}
+
+td {
+    background-color: ghostwhite;
+    font-size: 1.5rem;
+    min-width: 120px;
+    height: 120px;
+    color: slategrey;
+    text-align:left;
+    vertical-align: top;
+}
+
+tr {
+    min-height: 100px;
+}

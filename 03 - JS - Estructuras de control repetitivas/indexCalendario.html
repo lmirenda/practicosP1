@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calendario</title>
+</head>
+<body>
+    <header>
+        <h1>Calendario</h1>
+    </header>    
+    <label for="selectMes">Mes: </label>
+    <select name="selectMes" id="selectMes">
+        <option value="11">Enero</option>
+        <option value="12">Febrero</option>
+        <option value="1">Marzo</option>
+        <option value="2">Abril</option>
+        <option value="3">Mayo</option>
+        <option value="4">Junio</option>
+        <option value="5">Julio</option>
+        <option value="6">Agosto</option>
+        <option value="7">Setiembre</option>
+        <option value="8">Octubre</option>
+        <option value="9">Noviembre</option>
+        <option value="10">Diciembre</option>
+    </select>
+    <label for="selectAno">Año: </label>
+    <input type="number" placeholder="Ingrese un año" id="selectAno">
+    <input type="button" value="Generar Calendario" id="btn">
+    <div id="resultado">
+        <table id="Calendario" ></table>
+    </div>
+    <script type="text/javascript" src="appCalendario.js"></script>
+</body>
+</html>
