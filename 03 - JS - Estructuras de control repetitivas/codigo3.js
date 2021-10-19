@@ -472,7 +472,7 @@ function solucionEjercicio12() {
         resultado = 1;
     } else {
         switch (metodoSeleccionado) {
-            case "for":
+            case "for": 
                 for (valor1; valor1 > 1; valor1--){
                     resultado *= valor1;
                 }
